@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+  	<servlet-name>abcd</servlet-name>
+  	<servlet-class>project1.check</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>abcd</servlet-name>
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>sss</servlet-name>
+  	<servlet-class>project1.index</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>sss</servlet-name>
+  	<url-pattern>/id</url-pattern>
+  </servlet-mapping>
+  </web-app>

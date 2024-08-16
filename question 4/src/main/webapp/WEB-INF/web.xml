@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ <servlet>
+        <servlet-name>cookieEX</servlet-name>
+        <servlet-class>cookiesq4.cookieEX</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>cookieEX</servlet-name>
+        <url-pattern>/cookieEX</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>cookieNext</servlet-name>
+        <servlet-class>cookiesq4.cookieNext</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>cookieNext</servlet-name>
+        <url-pattern>/cc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VisitCounter</servlet-name>
+        <servlet-class>cookiesq4.VisitCounter</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>VisitCounter</servlet-name>
+        <url-pattern>/visit</url-pattern>
+    </servlet-mapping>
+ 
+</web-app>
